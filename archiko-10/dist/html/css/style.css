@@ -227,7 +227,7 @@ a {
 
 a:hover,
 a:focus {
-  color:#fff;
+  color:#6534ff;
   outline: none;
 }
 
@@ -359,7 +359,7 @@ textarea.input-round{
   top:50%;
   left: 0;
   margin: 0 0 0 1.1em;
-  -webkit-transform: translateY(-50%)
+  -webkit-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
@@ -1337,7 +1337,7 @@ i.icon{
   width: 100%;
   padding: 0 2em;
   text-align:center;
-  -webkit-transform:translateY(-50%));
+  -webkit-transform:translateY(-50%);
   -ms-transform:translateY(-50%);
   transform:translateY(-50%);
   -webkit-transition: all  0.3s ease-in;
@@ -1378,7 +1378,7 @@ i.icon{
   text-align:center;
   height: 100%;
   padding: 2em;
-  -webkit-transform: translateY(0));
+  -webkit-transform: translateY(0);
   -ms-transform: translateY(0);
   transform: translateY(0);
 }
