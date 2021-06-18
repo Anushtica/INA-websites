@@ -1911,6 +1911,10 @@ img.mfp-img{
   display: inline-block;
   font-size: 2em;
   margin-bottom: 20px;
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: none;
+
 }
 
 .footer p{

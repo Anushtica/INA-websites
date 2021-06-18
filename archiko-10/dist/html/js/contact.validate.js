@@ -14,20 +14,6 @@ function validateName() {
   return true;
 }
 
-function validatePhone() {
-  let phone = document.getElementById("c-phone").value;
-  if (phone.length == 0) {
-    alert("Mobile number can't be blank"); //Validation Message
-    return false;
-  }
-
-  if (!phone.match(/^\d{10}$/)) {
-    alert("Please enter a correct Mobile number"); //Validation Message
-    return false;
-  }
-
-  return true;
-}
 
 function validateEmail() {
   let email = document.getElementById("c-email").value;
@@ -45,7 +31,7 @@ function validateEmail() {
 }
 
 function validateForm() {
-  if (!validateName() || !validatePhone() || !validateEmail()) {
+  if (!validateName() || !validateEmail()) {
     alert("Form not submitted"); //Validation Message
     return false;
   } else {
